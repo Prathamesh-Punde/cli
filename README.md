@@ -16,30 +16,21 @@ Counter CLI is a simple command-line tool for performing file-based tasks, such 
 3. Install the dependencies by running:
    ```bash
    npm install
-Usage
-Navigate to the project directory in your terminal.
-Run the program with the following syntax:
-bash
-Copy
-Edit
+## Usage
+1. Navigate to the project directory in your terminal.
+2. Run the program with the following syntax:
+'''bash
 node index.js count <file>
 Replace <file> with the path to the file you want to count lines for.
-Example
+# Example
 To count the lines in a file named example.txt:
 
-bash
-Copy
-Edit
-node index.js count example.txt
+bash'''
+node index.js count a.txt
 Output:
 
-lua
-Copy
-Edit
-There are 10 lines in example.txt
-Project Structure
-index.js: Main entry point for the CLI.
-package.json: Project metadata and dependencies.
-Dependencies
-commander: For creating the CLI interface.
-chalk: For styled output (optional, not currently used in the script).
+bash'''
+There are 3 lines in a.txt
+
+# Dependencies
+[commander](https://www.npmjs.com/package/commander): For creating the CLI interface.
